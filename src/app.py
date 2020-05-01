@@ -19,7 +19,7 @@ def plot():
     from bokeh.resources import CDN  # Content Delivery Network
 
     start = datetime.datetime(2016, 3, 1)
-    end = datetime.datetime(2016, 5, 10)
+    end = datetime.datetime(2016, 6, 10)
 
     df = data.DataReader(name="GOOG", data_source="yahoo",
                          start=start, end=end)
