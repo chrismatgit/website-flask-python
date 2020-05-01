@@ -1,0 +1,11 @@
+{%extends "layout.html"%} {%block content%}
+<!-- below we are accessing the layout and extending the layout page -->
+<script
+  type="text/javascript"
+  src={{cdn_js|safe}}
+></script>
+<div class="about">
+  <h1>MY ABOUT PAGE</h1>
+  <p>This is a test website humm</p>
+</div>
+{{div1 | safe}} {{script1 |safe}} {%endblock%}
