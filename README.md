@@ -1,2 +1,4 @@
 # website-flask-python
-This is just a simple web application to introduce people to web using python backend
+This is just a simple web application to introduce people to web using python backend.
+
+Feel free to contribute
